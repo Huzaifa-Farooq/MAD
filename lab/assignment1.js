@@ -49,3 +49,16 @@ console.log("Last Index of 5:", arr.lastIndexOf(5));
 console.log("Includes 5:", arr.includes(5));
 console.log("Join:", arr2.join("-"));
 console.log("toString:", arr.toString());
+function square(x) {
+  return x * x;
+}
+function is_even(x) {
+  return x % 2 === 0;
+}
+function sum(x, y) {
+  return x + y;
+}
+console.log("map", arr.map(square));
+console.log("filter", arr.filter(is_even));
+console.log("reduce", arr.reduce(sum, 0));
+
